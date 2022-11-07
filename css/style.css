@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Mukta:wght@200&family=Oswald&display=swap');
+
+body{
+    background-color:#e25b5b;
+}
+
+.mt-4{
+    width: 90%;
+    margin: 60px;
+    margin-bottom: 30px;
+    background-color: #c41717;
+}
+
 .spider, .avengers, .silver{
     height: 600px;
     width: 90%;
@@ -26,4 +39,14 @@
 
 .nb:hover{
     background-color: #a5c3a7;
+}
+
+.table, h1, h3, p{
+    font-family: Oswald;
+}
+
+.navbar{
+    font-family: Oswald;
+    background-color:bisque;
+    margin-bottom: 25px;
 }

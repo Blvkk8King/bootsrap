@@ -10,7 +10,41 @@
     <title>Bootstrap Intro</title>
 </head>
 <body>
+    <div class="mt-4 p-5 text-black rounded">
+        <h1>Marvel Comics</h1>
+      </div>
 
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Local Stores</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Characters
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Spider-Man</a></li>
+                  <li><a class="dropdown-item" href="#">Avengers</a></li>
+                  <li><a class="dropdown-item" href="#">Silver Surfer</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Check Your Orders</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
     <div id="first-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active"><img class="spider" src="https://www.illustrationhistory.org/images/uploads/Ross_MG_3255.jpg" alt="" class="d-block w-100">
@@ -40,6 +74,37 @@
                 <span class=" nb carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+
+            <div class="container mt-3">
+                <h1>MARVEL COMICS</h1>
+                            
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Title</th>
+                      <th>Issuee</th>
+                      <th>Author</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Spider-Man</td>
+                      <td>#80085</td>
+                      <td>Steve Ditko</td>
+                    </tr>
+                    <tr>
+                      <td>Avengers</td>
+                      <td>#420</td>
+                      <td>Stevie Wonder</td>
+                    </tr>
+                    <tr>
+                      <td>Silver Surfer</td>
+                      <td>#304</td>
+                      <td>Stan "the G.O.A.T." Lee</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
     </div>
 
 
