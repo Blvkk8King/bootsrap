@@ -1,0 +1,29 @@
+.spider, .avengers, .silver{
+    height: 600px;
+    width: 90%;
+    border: 5px solid #000
+}
+
+.spider{
+    border: 8px solid red;
+}
+
+.avengers{
+    border: 8px solid lightblue;
+}
+
+.silver{
+    border: 8px solid #aaa;
+}
+
+.carousel-item{
+    margin: 0px 60px;
+}
+
+.pb:hover{
+    background-color:#10224b;
+}
+
+.nb:hover{
+    background-color: #a5c3a7;
+}
